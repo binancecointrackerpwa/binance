@@ -145,6 +145,9 @@
         font-family: font-fam;
         touch-action: pan-y;
         user-select: none;
+        overflow-x: hidden;
+        height: auto;
+        width: 100vw;
     }
     .parent-container{
         height: 100vh;
